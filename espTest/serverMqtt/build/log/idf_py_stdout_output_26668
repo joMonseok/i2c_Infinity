@@ -1,0 +1,43 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Skipping optional dependency: espressif/usb
+NOTICE: Skipping optional dependency: espressif/cjson
+NOTICE: Processing 30 dependencies:
+NOTICE: [1/30] chmorgan/esp-libhelix-mp3 (1.0.3)
+NOTICE: [2/30] espressif/cbor (0.6.1~4)
+NOTICE: [3/30] espressif/esp-dsp (1.4.12)
+NOTICE: [4/30] espressif/esp-modbus (1.0.18)
+NOTICE: [5/30] espressif/esp-serial-flasher (1.10.0)
+NOTICE: [6/30] espressif/esp-sr (1.9.5)
+NOTICE: [7/30] espressif/esp-zboss-lib (1.6.4)
+NOTICE: [8/30] espressif/esp-zigbee-lib (1.6.8)
+NOTICE: [9/30] espressif/esp_daylight (1.0.1)
+NOTICE: [10/30] espressif/esp_diag_data_store (1.1.0)
+NOTICE: [11/30] espressif/esp_diagnostics (1.3.0)
+NOTICE: [12/30] espressif/esp_insights (1.3.1)
+NOTICE: [13/30] espressif/esp_modem (1.4.2)
+NOTICE: [14/30] espressif/esp_rainmaker (1.7.9)
+NOTICE: [15/30] espressif/esp_rcp_update (1.5.1)
+NOTICE: [16/30] espressif/esp_schedule (1.3.2)
+NOTICE: [17/30] espressif/esp_secure_cert_mgr (2.7.2)
+NOTICE: [18/30] espressif/jsmn (1.1.0)
+NOTICE: [19/30] espressif/json_generator (1.1.2)
+NOTICE: [20/30] espressif/json_parser (1.0.3)
+NOTICE: [21/30] espressif/libsodium (1.0.20~2)
+NOTICE: [22/30] espressif/mdns (1.9.1)
+NOTICE: [23/30] espressif/network_provisioning (1.0.5)
+NOTICE: [24/30] espressif/qrcode (0.1.0~2)
+NOTICE: [25/30] espressif/rmaker_common (1.5.2)
+NOTICE: [26/30] espressif/usb_host_cdc_acm (2.1.1)
+NOTICE: [27/30] espressif/usb_host_ch34x_vcp (2.2.0)
+NOTICE: [28/30] espressif/usb_host_cp210x_vcp (2.2.0)
+NOTICE: [29/30] joltwallet/littlefs (1.20.3)
+NOTICE: [30/30] idf (5.1.5)
+-- DEBUG: Use esp-modbus component folder: C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-modbus.
+NOTICE: Skipping optional dependency: espressif/usb
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+C:\Users\cms54\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\minseok\school\pysicalMedia\espTest\serverMqtt -BC:\minseok\school\pysicalMedia\espTest\serverMqtt\build

@@ -1,0 +1,93 @@
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig 'C:/minseok/school/pysicalMedia/espTest/serverMqtt/sdkconfig'
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.52.0.windows.1")
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/cms54/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/cms54/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/cms54/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Skipping optional dependency: espressif/usb
+NOTICE: Skipping optional dependency: espressif/cjson
+NOTICE: Processing 30 dependencies:
+NOTICE: [1/30] chmorgan/esp-libhelix-mp3 (1.0.3)
+NOTICE: [2/30] espressif/cbor (0.6.1~4)
+NOTICE: [3/30] espressif/esp-dsp (1.4.12)
+NOTICE: [4/30] espressif/esp-modbus (1.0.18)
+NOTICE: [5/30] espressif/esp-serial-flasher (1.10.0)
+NOTICE: [6/30] espressif/esp-sr (1.9.5)
+NOTICE: [7/30] espressif/esp-zboss-lib (1.6.4)
+NOTICE: [8/30] espressif/esp-zigbee-lib (1.6.8)
+NOTICE: [9/30] espressif/esp_daylight (1.0.1)
+NOTICE: [10/30] espressif/esp_diag_data_store (1.1.0)
+NOTICE: [11/30] espressif/esp_diagnostics (1.3.0)
+NOTICE: [12/30] espressif/esp_insights (1.3.1)
+NOTICE: [13/30] espressif/esp_modem (1.4.2)
+NOTICE: [14/30] espressif/esp_rainmaker (1.7.9)
+NOTICE: [15/30] espressif/esp_rcp_update (1.5.1)
+NOTICE: [16/30] espressif/esp_schedule (1.3.2)
+NOTICE: [17/30] espressif/esp_secure_cert_mgr (2.7.2)
+NOTICE: [18/30] espressif/jsmn (1.1.0)
+NOTICE: [19/30] espressif/json_generator (1.1.2)
+NOTICE: [20/30] espressif/json_parser (1.0.3)
+NOTICE: [21/30] espressif/libsodium (1.0.20~2)
+NOTICE: [22/30] espressif/mdns (1.9.1)
+NOTICE: [23/30] espressif/network_provisioning (1.0.5)
+NOTICE: [24/30] espressif/qrcode (0.1.0~2)
+NOTICE: [25/30] espressif/rmaker_common (1.5.2)
+NOTICE: [26/30] espressif/usb_host_cdc_acm (2.1.1)
+NOTICE: [27/30] espressif/usb_host_ch34x_vcp (2.2.0)
+NOTICE: [28/30] espressif/usb_host_cp210x_vcp (2.2.0)
+NOTICE: [29/30] joltwallet/littlefs (1.20.3)
+NOTICE: [30/30] idf (5.1.5)
+-- DEBUG: Use esp-modbus component folder: C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-modbus.
+NOTICE: Skipping optional dependency: espressif/usb
+-- Project sdkconfig file C:/minseok/school/pysicalMedia/espTest/serverMqtt/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: C:/Users/cms54/.espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe (found version "3.11.7") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - no
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Could NOT find Threads (missing: Threads_FOUND) 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "serverMqtt" version: 1
+-- Adding linker script C:/minseok/school/pysicalMedia/espTest/serverMqtt/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script C:/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- DEBUG: Use esp-modbus component folder: C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-modbus.
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Components: app_trace app_update arduino bootloader bootloader_support bt chmorgan__esp-libhelix-mp3 cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__cbor espressif__esp-dsp espressif__esp-modbus espressif__esp-serial-flasher espressif__esp-sr espressif__esp-zboss-lib espressif__esp-zigbee-lib espressif__esp_daylight espressif__esp_diag_data_store espressif__esp_diagnostics espressif__esp_insights espressif__esp_modem espressif__esp_rainmaker espressif__esp_rcp_update espressif__esp_schedule espressif__esp_secure_cert_mgr espressif__jsmn espressif__json_generator espressif__json_parser espressif__libsodium espressif__mdns espressif__network_provisioning espressif__qrcode espressif__rmaker_common espressif__usb_host_cdc_acm espressif__usb_host_ch34x_vcp espressif__usb_host_cp210x_vcp esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 joltwallet__littlefs json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/esp/esp-idf/components/app_trace C:/esp/esp-idf/components/app_update C:/minseok/school/pysicalMedia/espTest/serverMqtt/components/arduino C:/esp/esp-idf/components/bootloader C:/esp/esp-idf/components/bootloader_support C:/esp/esp-idf/components/bt C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/chmorgan__esp-libhelix-mp3 C:/esp/esp-idf/components/cmock C:/esp/esp-idf/components/console C:/esp/esp-idf/components/cxx C:/esp/esp-idf/components/driver C:/esp/esp-idf/components/efuse C:/esp/esp-idf/components/esp-tls C:/esp/esp-idf/components/esp_adc C:/esp/esp-idf/components/esp_app_format C:/esp/esp-idf/components/esp_coex C:/esp/esp-idf/components/esp_common C:/esp/esp-idf/components/esp_eth C:/esp/esp-idf/components/esp_event C:/esp/esp-idf/components/esp_gdbstub C:/esp/esp-idf/components/esp_hid C:/esp/esp-idf/components/esp_http_client C:/esp/esp-idf/components/esp_http_server C:/esp/esp-idf/components/esp_https_ota C:/esp/esp-idf/components/esp_https_server C:/esp/esp-idf/components/esp_hw_support C:/esp/esp-idf/components/esp_lcd C:/esp/esp-idf/components/esp_local_ctrl C:/esp/esp-idf/components/esp_mm C:/esp/esp-idf/components/esp_netif C:/esp/esp-idf/components/esp_netif_stack C:/esp/esp-idf/components/esp_partition C:/esp/esp-idf/components/esp_phy C:/esp/esp-idf/components/esp_pm C:/esp/esp-idf/components/esp_psram C:/esp/esp-idf/components/esp_ringbuf C:/esp/esp-idf/components/esp_rom C:/esp/esp-idf/components/esp_system C:/esp/esp-idf/components/esp_timer C:/esp/esp-idf/components/esp_wifi C:/esp/esp-idf/components/espcoredump C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__cbor C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-dsp C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-modbus C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-serial-flasher C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-sr C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-zboss-lib C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp-zigbee-lib C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_daylight C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_diag_data_store C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_diagnostics C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_insights C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_modem C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_rainmaker C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_rcp_update C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_schedule C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__esp_secure_cert_mgr C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__jsmn C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__json_generator C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__json_parser C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__libsodium C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__mdns C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__network_provisioning C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__qrcode C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__rmaker_common C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__usb_host_cdc_acm C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__usb_host_ch34x_vcp C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/espressif__usb_host_cp210x_vcp C:/esp/esp-idf/components/esptool_py C:/esp/esp-idf/components/fatfs C:/esp/esp-idf/components/freertos C:/esp/esp-idf/components/hal C:/esp/esp-idf/components/heap C:/esp/esp-idf/components/http_parser C:/esp/esp-idf/components/idf_test C:/esp/esp-idf/components/ieee802154 C:/minseok/school/pysicalMedia/espTest/serverMqtt/managed_components/joltwallet__littlefs C:/esp/esp-idf/components/json C:/esp/esp-idf/components/log C:/esp/esp-idf/components/lwip C:/minseok/school/pysicalMedia/espTest/serverMqtt/main C:/esp/esp-idf/components/mbedtls C:/esp/esp-idf/components/mqtt C:/esp/esp-idf/components/newlib C:/esp/esp-idf/components/nvs_flash C:/esp/esp-idf/components/openthread C:/esp/esp-idf/components/partition_table C:/esp/esp-idf/components/perfmon C:/esp/esp-idf/components/protobuf-c C:/esp/esp-idf/components/protocomm C:/esp/esp-idf/components/pthread C:/esp/esp-idf/components/sdmmc C:/esp/esp-idf/components/soc C:/esp/esp-idf/components/spi_flash C:/esp/esp-idf/components/spiffs C:/esp/esp-idf/components/tcp_transport C:/esp/esp-idf/components/touch_element C:/esp/esp-idf/components/ulp C:/esp/esp-idf/components/unity C:/esp/esp-idf/components/usb C:/esp/esp-idf/components/vfs C:/esp/esp-idf/components/wear_levelling C:/esp/esp-idf/components/wifi_provisioning C:/esp/esp-idf/components/wpa_supplicant C:/esp/esp-idf/components/xtensa
+-- Configuring done (65.3s)
+-- Generating done (3.4s)
+-- Build files have been written to: C:/minseok/school/pysicalMedia/espTest/serverMqtt/build
